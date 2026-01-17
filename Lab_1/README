@@ -1,0 +1,21 @@
+## Objective
+The goal of this lab is to set up the environment for future assignments and get familiar with the Linux operating system and the Python programming language, with a focus on web scraping using the requests and BeautifulSoup4 libraries. The lab was completed using WSL.
+
+## Structure
+isabella_isyoo/
+├── data/
+│ ├── raw_data/
+│ │ └── web_data.html
+│ └── processed_data/
+│ ├── market_data.csv
+│ └── news_data.csv
+├── scripts/
+│ ├── web_scraper.py
+│ └── data_filter.py
+└── venv/
+
+## Recreation Steps:
+1. Activate virtual environment
+   source venv/bin/activate
+2. Run web_scraper.py to parse and save a web page.
+3. Run data_filter.py to store required content in CSV files.
