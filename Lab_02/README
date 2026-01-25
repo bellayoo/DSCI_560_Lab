@@ -1,0 +1,22 @@
+## Objective
+The goal of this lab is to get familiar with scraping different data sources including pdf, csv, plain text. The script requires Pandas and pdfplumber libraries. The lab was completed using WSL.
+
+## Structure
+isabella_isyoo/
+├── data/
+│ ├── raw_data/
+│  ├── Project Management (1).csv
+│  ├── final_project_guideline.pdf
+│  └── emails.csv
+│ └── processed_data/
+│  ├── emails_sample.csv
+│  ├── pdf_csv.csv
+│  └── txt_csv.csv
+├── scripts/
+│ └── data_exploration.py
+└── venv/
+
+## Recreation Steps:
+1. Activate virtual environment
+   source venv/bin/activate
+2. Run data_exploration.py to parse and save the result at processed_data folder
