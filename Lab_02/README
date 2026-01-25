@@ -20,3 +20,9 @@ isabella_isyoo/
 1. Activate virtual environment
    source venv/bin/activate
 2. Run data_exploration.py to parse and save the result at processed_data folder
+
+
+## Raw Data URL:
+CSV: Project Management DataSet Example (https://www.kaggle.com/datasets/ahmadilmanashraf/project-management-dataset-example)
+ASCII: Enron Email Dataset (https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)
+PDF: Final Project Guidelines (https://www3.nd.edu/~zxu2/acms60212-40212-S16/final_project_guideline.pdf) 
